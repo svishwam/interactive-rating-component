@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Overpass&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Overpass:wght@700&display=swap" rel="stylesheet">
+  <title>Interactive rating component</title>
+
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+<div class="div1">
+  <div class="img"><img src="./images/icon-star.svg"></div>
+  <div class="h3"><h1>How did we do?</h1></div>
+
+  <div class="msg"><p1>Please let us know how we did with your support request. All feedback is appreciated 
+  to help us improve our offering!</p1></div>
+
+  <div class="number flex-container">
+
+    
+    <button class="n1" id="b1" onclick="inFunction(this)">1</button>
+    <button class="n1" id="b2" onclick="inFunction(this)">2</button>
+    <button class="n1" id="b3" onclick="inFunction(this)">3</button>
+    <button class="n1" id="b4" onclick="inFunction(this)">4</button>
+    <button class="n1" id="b5" onclick="inFunction(this)">5</button>
+    
+   
+
+  </div>
+
+    <button class="btn">SUBMIT</button>
+
+</div>
+
+
+
+<div class="div2"> 
+  <div class="img2"><img src="./images/illustration-thank-you.svg"></div>
+  <div class="rate" id="r1">
+  You selected <span id="rating">0</span> out of 5
+  </div>
+
+  <div class="th"><h2>Thank you!</h2></div>
+
+  <div class="msg2">We appreciate you taking the time to give a rating. If you ever need more support, 
+  don't hesitate to get in touch!</div>
+</div>
+ 
+<script src="./index.js"></script>
+</body>
+</html>

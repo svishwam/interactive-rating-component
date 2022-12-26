@@ -1,0 +1,202 @@
+.div1{
+    height:340px;
+    width: 340px;
+    background-color: hsl(0, 0%, 100%);
+    background-color: hsl(217, 12%, 63%);
+    background-color: hsl(216, 12%, 54%);
+    background-color: hsl(213, 19%, 18%); 
+    
+    position: relative;
+    left: 500px;
+    top: 220px;
+    border-radius: 5%;
+    position: relative;
+}
+
+.img{
+    position:relative;
+    top: 30px;
+    left: 20px;
+}
+
+.h3{
+    position: relative;
+    top: 40px;
+    left: 15px;
+    font-family: 'Overpass', sans-serif;
+    color:hsl(0, 0%, 100%);
+    font-size: 15px;
+    
+}
+
+.msg{
+    position: relative;
+    top:30px;
+    left: 15px;
+    font-family: 'Overpass', sans-serif;
+    color: hsl(217, 12%, 63%);
+    font-size: 15px;
+}
+
+.btn{
+    position: absolute;
+    bottom:25px;
+    left: 30px;
+    height: 30px;
+    width: 280px;
+    border-radius: 20px;
+    background-color: hsl(25, 97%, 53%);
+    text-align: center;
+    text-decoration: none;
+    border:none;
+}
+
+.btn:hover{
+    background-color: white;
+    color:hsl(25, 97%, 53%);
+}
+
+.num{
+    background-color: azure;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    vertical-align: middle;
+    line-height: 35px;
+    text-align: center;
+  
+    background-color:hsl(216, 12%, 54%);
+
+}
+.num:hover{
+    background-color: hsl(25, 97%, 53%);
+}
+.number:hover a{
+    color: white;
+}
+.number a{
+    text-decoration: none;
+    color: hsl(217, 12%, 63%);
+    
+}
+
+
+
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.number{
+    position: relative;
+    top: 50px;
+    left: 10px;
+    width:320px;
+    
+}
+
+.div2{
+    display: none;
+    height:340px;
+    width: 340px;
+    background-color: hsl(0, 0%, 100%);
+    background-color: hsl(217, 12%, 63%);
+    background-color: hsl(216, 12%, 54%);
+    background-color: hsl(213, 19%, 18%); 
+    
+    position: relative;
+    left: 500px;
+    top: 220px;
+    border-radius: 5%;
+    position: relative;
+    
+}
+
+.img2{
+    position: relative;
+    top:40px;
+    left:80px;
+}
+
+.rate{
+    height: 20px;
+    width: 180px;
+    background-color: white;
+    position: relative;
+    top: 55px;
+    left: 70px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.th{
+    position: relative;
+    top:60px;
+    left:95px;
+    font-family: 'Overpass', sans-serif;
+    color:hsl(0, 0%, 100%);
+    font-size: 15px;
+}
+
+.msg2{
+    position: relative;
+    font-family: 'Overpass', sans-serif;
+    color:hsl(217, 12%, 63%);
+    font-size: 14px;
+    top:50px;
+    left: 25px;
+    /* background-color: aqua; */
+    width: 290px;
+    
+    
+}
+
+.n1{
+    background-color: azure;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    vertical-align: middle;
+    line-height: 50px;
+    text-align: center;
+    background-color:hsl(216, 12%, 54%);
+    border:none;
+}
+
+
+.n1:hover{
+    background-color: hsl(25, 97%, 53%);
+    color: azure;
+}
+
+.img{
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    background-color:  hsl(216, 12%, 8%);
+    position: relative;
+    text-align: center;
+    line-height: 28px;
+}
+
+For mobile phones: */
+/* [class*="col-"] {
+    width: 100%;
+  }
+  
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }
